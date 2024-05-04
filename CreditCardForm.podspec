@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CreditCardForm"
-  s.version      = "0.2.0"
+  s.version      = "0.2.1"
   s.summary      = "CreditCardForm is iOS framework"
 
   s.description  = "CreditCardForm is iOS framework that allows developers to create the UI which replicates an actual Credit Card"
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/orazz/CreditCardForm-iOS.git", :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files  = "CreditCardForm/Classes/*.swift", "CreditCardForm/*.{h,m}"
   s.resource_bundles = {
